@@ -240,7 +240,7 @@ The exploratory analysis identified several relevant observations:
 
 ---
 
-## Technologies & Skills Demonstrated
+## Technologies
 
 **Data Analysis**
 - Python
@@ -291,9 +291,8 @@ The exploratory analysis identified several relevant observations:
 
 ---
 
-## Repository Structure
+## Structure
 
-```text
 data/
 ├── processed/
 
@@ -315,7 +314,6 @@ src/
 README.md
 requirements.txt
 .gitignore
-```
 
 The raw eICU database is excluded through `.gitignore`.
 
@@ -325,25 +323,23 @@ The raw eICU database is excluded through `.gitignore`.
 
 Clone the repository and install the Python dependencies:
 
-```bash
 pip install -r requirements.txt
-```
+
 
 Obtain the eICU Demo dataset separately and place the local SQLite database inside:
 
-```text
 data/raw/
-```
+
 
 Run the notebooks sequentially:
 
-```text
+
 01_database_exploration.ipynb
 02_build_dataset.ipynb
 03_exploratory_analysis.ipynb
 04_machine_learning.ipynb
 05_generative_ai.ipynb
-```
+
 
 For the Generative AI component, Ollama must be installed locally and the corresponding Qwen model must be available.
 
