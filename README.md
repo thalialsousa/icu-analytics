@@ -1,4 +1,5 @@
 # ICU Analytics — Data-Driven Critical Care Performance Dashboard
+This project was developed for educational and self-directed learning purposes.
 
 ## Project Overview
 
@@ -289,18 +290,18 @@ The exploratory analysis identified several relevant observations:
 ## Structure
 
 data/
-├── processed/
+>processed/
 
 docs/
-├── images/
-└── model_metrics.csv
+>images/
+>model_metrics.csv
 
 notebooks/
-├── 01_database_exploration.ipynb
-├── 02_build_dataset.ipynb
-├── 03_exploratory_analysis.ipynb
-├── 04_machine_learning.ipynb
-└── 05_generative_ai.ipynb
+>01_database_exploration.ipynb
+>02_build_dataset.ipynb
+>03_exploratory_analysis.ipynb
+>04_machine_learning.ipynb
+>05_generative_ai.ipynb
 
 powerbi/
 sql/
