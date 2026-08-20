@@ -53,9 +53,7 @@ The raw SQLite database is intentionally excluded from this repository.
 
 ---
 
-## Project Workflow
 
-```text
 eICU SQLite Database
         ↓
 SQL + Python Extraction
@@ -71,7 +69,6 @@ Power BI Dashboard
 Machine Learning
         ↓
 Local Generative AI
-```
 
 ---
 
