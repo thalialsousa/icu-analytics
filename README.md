@@ -201,15 +201,13 @@ A local Generative AI prototype was implemented using **Ollama** and **Qwen 2.5 
 
 Instead of allowing the language model to calculate clinical metrics directly, the architecture separates deterministic analytics from natural-language interpretation:
 
-```text
-Validated Python Metrics
+Python Metrics
         ↓
 Structured Analytical Context
         ↓
 Local LLM
         ↓
 Executive Interpretation
-```
 
 The LLM receives previously calculated analytical results and generates a natural-language interpretation.
 
